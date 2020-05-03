@@ -1,0 +1,8 @@
+<launch>
+    <!-- Core Simulation Packages -->
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch" />
+    <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />
+    <node pkg="tf" type="static_transform_publisher" name="fake_map" args="0.0 0.0 0.0 0.0 0.0 0.0 1.0 map odom 10" />
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ar_minor_assignment1)/rviz/simulation.rviz" />
+</launch>
