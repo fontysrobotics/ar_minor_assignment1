@@ -8,6 +8,8 @@ Follow the installation instructions in the Readme file in the same repository. 
 ### The Task
 In this task you are going to develop a couple of ‘steering nodes’. A ‘steering node’ makes the robot drive to the goal pose which it receives as a [geometry_msgs/PoseStamped](http://docs.ros.org/melodic/api/geometry_msgs/html/msg/PoseStamped.html) message on the topic ‘/move_base_simple/goal’. It also subscribes to the topic ‘/odom’ to receive robot pose updates in the form of [nav_msgs/Odometry](http://docs.ros.org/melodic/api/nav_msgs/html/msg/Odometry.html) messages and steers the robot to the goal via [geometry_msgs/Twist](http://docs.ros.org/melodic/api/geometry_msgs/html/msg/Twist.html) messages which it publishes on ‘/cmd_vel’.
 
+![Figure 1](https://raw.githubusercontent.com/fontysrobotics/ar_minor_assignment1/master/doc/figure1.png) 
+
 Extend the ar_minor_assignment1 package by adding your code in the src folder. This folder will contain the source code for your ROS nodes. Write the following steering nodes in python or C++:
 
 - **‘pointshoot_node’**: This node must rotate the robot (turtlebot3) in place to point towards the goal, then drive in a straight line towards the goal and finally rotate to comply with the goal orientation.
