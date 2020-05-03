@@ -20,7 +20,7 @@ Once the prerequisites are satisfied the assignment can be cloned in the workspa
 ```bash
 git clone https://github.com/fontysrobotics/ar_minor_assignment1.git
 ```
-**Warning: ** *Cloning the repository allows you to commit and track only local changes while pushing the changes is denied. If there is a wish for pushing the changes it is recommend to use the github fork functionality and clone the repository that is created.*
+**Warning:** *Cloning the repository allows you to commit and track only local changes while pushing the changes is denied. If there is a wish for pushing the changes it is recommend to use the github fork functionality and clone the repository that is created.*
 
 The simulation will bring up gazebo, a functional robot model with transform frames and a pre-configured rviz view. To run the the simulation the command can be used:
 ```ros
@@ -28,3 +28,7 @@ roslaunch ar_minor_assignment1 simulation.launch
 ```
 
 #### Next steps
+- The assignment itself can be found in the repository as the Assignment.md file
+- For a reference video made by previous students of the minor visit:
+https://youtu.be/q999uX0qbeE
+https://youtu.be/9w8uK_pDoiI
