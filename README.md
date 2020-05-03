@@ -13,7 +13,7 @@ sudo apt install ros-melodic-gazebo-ros-pkgs
 sudo apt install ros-melodic-gazebo-plugins
 sudo apt install ros-melodic-hls-lfcd-lds-driver
 ```
-*Note: In case there are any cloned any turtlebot3 packages inside the catkin workspace it is mandatory to remove them and clean the workspace in case you wish to install them with the commands listed in the previous section*
+**Warning:** *In case there are any turtlebot3 packages inside the catkin workspace (/catkin_ws folder)it is mandatory to remove them and clean the workspace in case you wish to install them with the commands listed above*
 
 #### Setting up the assignment
 Once the prerequisites are satisfied the assignment can be cloned in the workspace with the following command relative to the workspace source folder:
