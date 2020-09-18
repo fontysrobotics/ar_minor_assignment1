@@ -17,5 +17,6 @@
   <exec_depend>std_msgs</exec_depend>
 
   <export>
+    <gazebo_ros gazebo_plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" />
   </export>
 </package>

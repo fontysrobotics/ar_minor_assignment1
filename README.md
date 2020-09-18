@@ -27,6 +27,11 @@ The simulation will bring up gazebo, a functional robot model with transform fra
 roslaunch ar_minor_assignment1 simulation.launch
 ```
 
+Alternatively a maze world can be launched, this will bring up gazebo and a functional robot model in a maze supporting collision effects. This simulation file does not contain a pre-configured rviz:
+``` ros
+roslaunch ar_minor_assignment1 maze.launch
+```
+
 #### Next steps
 - The assignment itself can be found in the repository as the Assignment.md file
 - For a reference video made by previous students of the minor visit:
